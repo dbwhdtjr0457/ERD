@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-13T09:11:06.830Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="P945LKFtunH8WXUGDHLI" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-13T09:45:25.102Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ewnWoWNevZngQnKakFwy" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1855" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,6 +80,9 @@
         <mxCell id="H8sE_HsCEM9CtLowhWiP-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="H8sE_HsCEM9CtLowhWiP-9" target="H8sE_HsCEM9CtLowhWiP-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="H8sE_HsCEM9CtLowhWiP-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="H8sE_HsCEM9CtLowhWiP-9" target="H8sE_HsCEM9CtLowhWiP-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="H8sE_HsCEM9CtLowhWiP-9" value="server recieves&lt;br&gt;PASS &amp;lt;password&amp;gt;&lt;br&gt;NICK &amp;lt;nickname&amp;gt;&lt;br&gt;USER &amp;lt;user&amp;gt; &amp;lt;mode&amp;gt; &amp;lt;unused&amp;gt; &amp;lt;realname&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="49" y="790" width="281" height="60" as="geometry" />
         </mxCell>
@@ -95,14 +98,29 @@
         <mxCell id="H8sE_HsCEM9CtLowhWiP-15" value="password, nickname, user check" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="490.5" y="790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H8sE_HsCEM9CtLowhWiP-17" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="510.5" y="640" width="80" height="80" as="geometry" />
+        <mxCell id="H8sE_HsCEM9CtLowhWiP-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="H8sE_HsCEM9CtLowhWiP-17" target="H8sE_HsCEM9CtLowhWiP-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H8sE_HsCEM9CtLowhWiP-19" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="710.5" y="780" width="80" height="80" as="geometry" />
+        <mxCell id="H8sE_HsCEM9CtLowhWiP-17" value="password wrong or missing" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="481" y="640" width="139" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H8sE_HsCEM9CtLowhWiP-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="H8sE_HsCEM9CtLowhWiP-19" target="H8sE_HsCEM9CtLowhWiP-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H8sE_HsCEM9CtLowhWiP-19" value="nickname already in use" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710.5" y="780" width="159.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="H8sE_HsCEM9CtLowhWiP-21" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510.5" y="920" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H8sE_HsCEM9CtLowhWiP-23" value="ERROR :Closing link: (root@127.0.0.1) [Access denied by configuration]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440.75" y="490" width="219.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H8sE_HsCEM9CtLowhWiP-25" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="129.5" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H8sE_HsCEM9CtLowhWiP-27" value="irc.local 433 * root :Nickname is already in use." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="969.75" y="790" width="270.25" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
