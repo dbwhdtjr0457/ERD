@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-14T22:34:16.909Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Vxfd7UgIa2B_yH6lNkke" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-14T22:40:04.993Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="uRNEm1BqOXZBVUwaGw5C" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3457" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3084" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -309,7 +309,7 @@
         <mxCell id="jLngtghAhZI-5gRRqZkh-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jLngtghAhZI-5gRRqZkh-27" target="jLngtghAhZI-5gRRqZkh-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jLngtghAhZI-5gRRqZkh-27" value=":irc.local 341 joyoo_ joyoo___ :#hello" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jLngtghAhZI-5gRRqZkh-27" value=":irc.local 341 &amp;lt;client&amp;gt; &amp;lt;nickname&amp;gt; :#hello" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1019" y="1640" width="261" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jLngtghAhZI-5gRRqZkh-29" value="sends&lt;br&gt;:irc.local NOTICE &amp;lt;channel&amp;gt; :*** &amp;lt;client&amp;gt; invited &amp;lt;nickname&amp;gt; into the channel&lt;br&gt;to all users in the channel" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
