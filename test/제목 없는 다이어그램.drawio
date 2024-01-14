@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-14T22:58:04.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CMmB4bQu8Auz3r_vMkYQ" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-14T23:05:26.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SdjhAy3xsXSc__x5CY4N" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="5425" dy="2058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3084" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -330,10 +330,10 @@
         <mxCell id="jLngtghAhZI-5gRRqZkh-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jLngtghAhZI-5gRRqZkh-33" target="jLngtghAhZI-5gRRqZkh-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jLngtghAhZI-5gRRqZkh-33" value="TOPIC #hello :hello" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jLngtghAhZI-5gRRqZkh-33" value="TOPIC &amp;lt;channel&amp;gt; :&amp;lt;topic&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1530" y="1470" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jLngtghAhZI-5gRRqZkh-35" value="sends&lt;br&gt;:joyoo_!root@127.0.0.1 TOPIC #hello :hi&lt;br&gt;to all users in channel" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jLngtghAhZI-5gRRqZkh-35" value="sends&lt;br&gt;:joyoo_!root@127.0.0.1 TOPIC &amp;lt;channel&amp;gt; :&amp;lt;topic&amp;gt;&lt;br&gt;to all users in channel" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1430" y="1640" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jLngtghAhZI-5gRRqZkh-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jLngtghAhZI-5gRRqZkh-37" target="jLngtghAhZI-5gRRqZkh-39">
