@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-14T23:05:26.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SdjhAy3xsXSc__x5CY4N" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-14T23:06:09.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="g7SG5mV_TT_NIW4HNZHN" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3084" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3629" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -325,31 +325,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jLngtghAhZI-5gRRqZkh-31" value="client sends:&lt;br&gt;/topic &amp;lt;channel&amp;gt; &amp;lt;topic&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1520" y="1330" width="200" height="60" as="geometry" />
+          <mxGeometry x="1490" y="1330" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jLngtghAhZI-5gRRqZkh-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jLngtghAhZI-5gRRqZkh-33" target="jLngtghAhZI-5gRRqZkh-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jLngtghAhZI-5gRRqZkh-33" value="TOPIC &amp;lt;channel&amp;gt; :&amp;lt;topic&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1530" y="1470" width="180" height="60" as="geometry" />
+          <mxGeometry x="1500" y="1470" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jLngtghAhZI-5gRRqZkh-35" value="sends&lt;br&gt;:joyoo_!root@127.0.0.1 TOPIC &amp;lt;channel&amp;gt; :&amp;lt;topic&amp;gt;&lt;br&gt;to all users in channel" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1430" y="1640" width="380" height="60" as="geometry" />
+          <mxGeometry x="1440" y="1640" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jLngtghAhZI-5gRRqZkh-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jLngtghAhZI-5gRRqZkh-37" target="jLngtghAhZI-5gRRqZkh-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jLngtghAhZI-5gRRqZkh-37" value="client sends:&lt;br&gt;/msg &amp;lt;nickname&amp;gt; &amp;lt;message&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1960" y="1330" width="200" height="60" as="geometry" />
+          <mxGeometry x="1880" y="1330" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jLngtghAhZI-5gRRqZkh-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jLngtghAhZI-5gRRqZkh-39" target="jLngtghAhZI-5gRRqZkh-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jLngtghAhZI-5gRRqZkh-39" value="PRIVMSG &amp;lt;nickname&amp;gt; :&amp;lt;message&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1950" y="1470" width="220" height="60" as="geometry" />
+          <mxGeometry x="1870" y="1470" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jLngtghAhZI-5gRRqZkh-41" value=":joyoo_!root@127.0.0.1 PRIVMSG joyoo :hi" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1910" y="1640" width="300" height="60" as="geometry" />
+          <mxGeometry x="1830" y="1640" width="300" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
